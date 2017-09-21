@@ -48,10 +48,15 @@ li{
 
 }
 
+h2{
+	padding-left: 25px;
+
+}
+
 #me{
 	background-color: #ffffff;
 	float: left;
-	height: 350px;
+	height: 400px;
 	width: 650px;
 	margin-left: 100px;
 	font-family: "Georgia", Times, "Times New Roman", serif;
@@ -61,16 +66,24 @@ li{
 
 }
 
+.border{
+	border-bottom-style: solid;
+	border-color: #dddddd;
+	margin: 0px 25px 0px 25px;
+}
+
 .info{
-	color: black;
-	margin-right: 15px;
-	margin-left: 15px;
+	color: #777777;
+	margin-right: 25px;
+	margin-left: 25px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 150%;
 }
 
 aside{
 	background-color: white;
 	float: right;
-	height: 175px;
+	height: 150px;
 	width: 270px;
 	margin-right: 250px;
 	text-align: center;
@@ -85,14 +98,23 @@ ul.links{
 
 ul.links li{
 	list-style-type: none;
-	padding: 5px;
-	clear: both;
+	padding: 5px 0px 5px 0px;
 }
 
 ul.links li img{
-	width: 50px;
-	height: 50px;
+	width: 70px;
+	height: 70px;
+	padding: 5px;
 }
+
+
+#portfolio-img{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 25px 20px 5px 0px;
+}
+
 
 footer{
 	background-color: #666666;
@@ -100,12 +122,3 @@ footer{
 	padding: 20px;
 	text-align: center;
 }
-
-#portfolio-img{
-	float: left;
-	width: 150px;
-	height: 150px;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-

@@ -34,6 +34,10 @@ li{
 
 }
 
+a:link{
+	text-decoration: none;
+}
+
 
 #full{
 	width: 960px;
@@ -188,7 +192,6 @@ input[type=submit]:hover {
 	background-color: #ffffff;
 	width: 270px;
 	float: right;
-	margin: -627px 229px 5px 0px;
 
 }
 

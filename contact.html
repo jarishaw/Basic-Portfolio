@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title> Basic Portfolio</title>
+	<title> Basic Portfolio of Jarisha Williams</title>
 	<!-- Link CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -12,32 +12,64 @@
 <body>
 	
 	<header>
-		<h1>Jarisha Williams</h1>
+	
+		<div id="flname">Jarisha Williams</div>
+
+		<nav class="menu2">
+			<ul>
+				<li>About
+					<a href="index.html"></a>
+				</li>
+
+				<li>Portfolio
+					<a href="portfolio.html"></a>
+				</li>
+				
+				<li>Contact
+					<a href="contact.html"></a>
+				</li>
+
+
+			</ul>
+		
+		</nav>
+
 	</header>
 
-	<section id="menu">
-		<ul>
-			<li>About</li>
-			<li>Portfolio</li>
-			<li>Contact</li>
 
-		</ul>
-	</section>
-
-	<section id="full">
-		<div id="me">
+	<div id="full1">
+		<div id="blank-form">
 			<p><h2>Contact</h2></p>
 
-			<p class="border"></p>
+			<hr>
+			
+			<br>
 
+			<form action="/action_page.php">
+    			<label for="name">Name</label>
+    				<input type="text" id="name" name="name" placeholder="John Smith">
+
+   				<label for="email">Email</label>
+    			<input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+    			<label for="subject">Message</label>
+    			<textarea id="message" name="message" style="height:200px"></textarea>
+
+    			<input type="submit" value="Submit">
+  			</form>
 		</div>
 
-	<aside>
-		<h3>Connect With Me</h3>
 
-		<p class="border">
+
+		</div>
+		
+		<aside class="connect">
+			<h3>Connect With Me</h3>
+
+			<hr>
+
 			<ul class="links">
-				<li>
+					<li>
 						<a href="https://github.com/jarishaw">
 							<img id="git" src="assets/images/git.png" alt="Git">
 						</a>
@@ -54,19 +86,18 @@
 					</li>
 
 				</ul>
-			</p>
 
 		</aside>
-	</section>
+	
+	</div>
 
-
-	<footer>
-	Copyright 2017 Jarisha Williams
+	
+	<footer class="footer">
+		<p class="copyright">&copy copyright 2017 Jarisha Williams</p>
 	</footer>
 
 
 </body>
-
 
 
 </html>

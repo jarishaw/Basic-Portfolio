@@ -215,6 +215,50 @@ input[type=submit]:hover {
 	border-top-color: #dddddd; 
 	border-width: 2px 0px 5px 0px;
 	clear:both;
-	overflow: hidden;
+	overflow: auto;
 
 }
+
+#portfolio{
+	background-color: #ffffff;
+	width: 575px;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	color: #4aaaa5;
+	margin: 15px 0px 0px 25px;
+	padding: 10px;
+	float: left;
+
+}
+
+
+.portfolio-imgs {
+    position: relative;
+    float: left;
+
+}
+   
+
+.portfolio-imgs .caption {
+	position: absolute;
+    height: 35px;
+	width: 240px;
+	color: white;
+	background-color: #4aaaa5;
+	text-align: center;
+	bottom: 43px;
+	left: 15px;
+
+}
+
+.caption{
+	padding: 5px;
+}
+
+.pic{
+	width: 240px;
+	padding: 0px;
+	margin: 0px 20px 40px 15px;
+	height: 220px;
+}
+
+
